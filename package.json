@@ -1,0 +1,17 @@
+{
+  "name": "chatcord",
+  "version": "1.0.0",
+  "description": "Realtime chat app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Abdulsamet Kaya",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "moment": "^2.29.1",
+    "socket.io": "^4.4.1"
+  }
+}
